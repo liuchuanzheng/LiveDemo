@@ -57,8 +57,10 @@ public class MainActivity extends AppCompatActivity {
         mSuperPlayerView.setPlayerViewCallback(playerViewCallback);
 
         SuperPlayerModel superPlayerModel = new SuperPlayerModel();
-
-        superPlayerModel.videoURL = "http://5815.liveplay.myqcloud.com/live/5815_89aad37e06ff11e892905cb9018cf0d4.flv";
+        superPlayerModel.title = "刘传政测试";
+//        superPlayerModel.videoURL = "http://5815.liveplay.myqcloud.com/live/5815_89aad37e06ff11e892905cb9018cf0d4.flv";
+//        superPlayerModel.videoURL = "http://192.168.1.100:9012/api/HLS/Live_00026/stream.m3u8";
+        superPlayerModel.videoURL = "http://devimages.apple.com/iphone/samples/bipbop/bipbopall.m3u8";
 
         superPlayerModel.multiVideoURLs = new ArrayList<>();
 
